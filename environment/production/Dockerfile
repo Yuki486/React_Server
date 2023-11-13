@@ -6,7 +6,7 @@ COPY ../../wready/react-app/package*.json ./
 
 RUN npm install
 
-COPY ../../wready/react-app/ /app/react-app
+COPY ../../wready/react-app/ /app
 
 EXPOSE 3000
 
